@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: pink;
+    }
+    
+    div {
+    font-size: 300px;
+    color: red;
+    animation: beating-heart 2s infinite;
+    }
+    
+    @keyframes beating-heart {
+    0% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(0.75);
+    }
+    100% {
+    transform: scale(1);
+    }
+    }
